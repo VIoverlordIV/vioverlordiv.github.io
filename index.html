@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ | 趙鋭（チョウ エイ）</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+    <!-- Top Nav -->
+    <header class="nav">
+        <div class="nav-logo" data-i18n="nav-logo">PORTFOLIO / 趙 鋭</div>
+
+        <nav class="nav-links">
+            <a href="#about" data-i18n="nav-about">自己紹介</a>
+            <a href="#skills" data-i18n="nav-skills">スキル</a>
+            <a href="#projects" data-i18n="nav-projects">プロジェクト</a>
+            <a href="#history" data-i18n="nav-history">経歴</a>
+            <a href="#contact" data-i18n="nav-contact">お問い合わせ</a>
+        </nav>
+
+        <!-- Language Switcher -->
+        <div class="lang-switch">
+            <button class="lang-btn active" data-lang="ja">日本語</button>
+            <button class="lang-btn" data-lang="zh">中文</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div>
+            <div class="hero-label">
+                <span class="icon"></span>
+                <span data-i18n="hero-label">2026年度新卒 エンジニア志望</span>
+            </div>
+
+            <h1 data-i18n="hero-name">趙 鋭（チョウ エイ）</h1>
+
+            <p class="hero-sub" data-i18n="hero-sub">
+                日本電子専門学校 モバイルアプリケーション開発科 在籍 /
+                アプリ開発 × デザイン思考 × 多角的な視点
+            </p>
+
+            <p class="hero-text" data-i18n="hero-text">
+                ゲームやWebサービスの仕組みに興味があり、課題や個人制作を通して手を動かしながら学んでいます。
+                日本でエンジニアとして働き、使う人にとって素直に使いやすいサービスを作ることを目指しています。
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn-primary" href="#projects" data-i18n="btn-projects">
+                    ▶ プロジェクトを見る
+                </a>
+                <a class="btn-ghost" href="https://github.com/VIoverlordIV" target="_blank"
+                   data-i18n="btn-github">
+                    GitHub プロフィール
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="avatar">
+                <img src="zhao.jpg" alt="Profile Photo">
+            </div>
+            <div class="hero-tags">
+                <span>Swift / Kotlin / Java</span>
+                <span data-i18n="tag-web">Webフロント</span>
+                <span data-i18n="tag-uiux">UI/UX</span>
+                <span data-i18n="tag-team">チーム開発</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="section-title">
+            <span class="bar"></span>
+            <span data-i18n="about-title">自己紹介</span>
+        </div>
+        <div class="card">
+            <p data-i18n="about-main">
+                中国出身。現在は日本電子専門学校モバイルアプリケーション開発科で、iOS／AndroidアプリやWeb制作の基礎を学んでいます。
+                自分で簡単なアプリやサイトを作りながら少しずつ理解を深めてきました。将来は、日本でエンジニアとして身近に役立つプロダクトに関わりたいと考えています。
+            </p>
+            <p class="muted" style="margin-top:6px;" data-i18n="about-strength">
+                強み：分からないことを自分で調べて試す姿勢 ／ 小さなところまできちんと確認する丁寧さ ／ 相手の立場を意識して画面や仕様を考えること。
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="section-title">
+            <span class="bar"></span>
+            <span data-i18n="skills-title">スキルセット</span>
+        </div>
+        <div class="grid grid-2">
+            <div class="card">
+                <strong data-i18n="skills-lang-title">言語・フレームワーク</strong>
+                <div class="pill-row">
+                    <div class="pill">Swift（SwiftUI）</div>
+                    <div class="pill">Kotlin / Java（Android）</div>
+                    <div class="pill">HTML / CSS / JavaScript</div>
+                    <div class="pill">PHP / MySQL</div>
+                </div>
+            </div>
+            <div class="card">
+                <strong data-i18n="skills-tools-title">開発経験・ツール</strong>
+                <div class="pill-row">
+                    <div class="pill">Git / GitHub</div>
+                    <div class="pill">Xcode / Android Studio</div>
+                    <div class="pill" data-i18n="skills-team">チーム開発演習</div>
+                    <div class="pill" data-i18n="skills-uiux">UI/UX デザイン基礎</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="section-title">
+            <span class="bar"></span>
+            <span data-i18n="projects-title">プロジェクト（一部）</span>
+        </div>
+        <div class="grid grid-2">
+
+            <!-- Project 1: 絵描きサイト -->
+            <a href="egk/index.html" class="card link-card" target="_blank">
+                <strong>絵描きサイト（描画アプリ）</strong>
+                <p class="muted">Web / 個人制作</p>
+                <p>
+                    ブラシや図形ツールを使って自由に描けるシンプルなウェブアプリ。
+                    多言語対応やカラーピッカー、保存機能も実装しています。
+                </p>
+                <div class="pill-row">
+                    <div class="pill">HTML / CSS / JS</div>
+                    <div class="pill">Canvas API</div>
+                    <div class="pill">多言語対応</div>
+                </div>
+            </a>
+
+            <!-- Project 2: ポケモン図鑑アプリ -->
+            <a href="pkm/index.html" class="card link-card" target="_blank">
+                <strong>ポケモン図鑑アプリ</strong>
+                <p class="muted">iOS / 個人制作 / SwiftUI</p>
+                <p>
+                    『ポケットモンスター スカーレット・バイオレット』の
+                    「バイオレット」をテーマカラーにしたポケモン図鑑検索アプリ。
+                    ポケモンの名前やタイプで検索できるほか、
+                    紫を基調としたUIで世界観と見やすさの両立を意識してデザインしました。
+                </p>
+                <div class="pill-row">
+                    <div class="pill">SwiftUI</div>
+                    <div class="pill">iOS</div>
+                    <div class="pill">UIデザイン</div>
+                </div>
+            </a>
+
+            <!-- Project 3: フォトマップアプリ（替换这里） -->
+            <a href="phmap/index.html" class="card link-card" target="_blank">
+                <strong>フォトマップアプリ</strong>
+                <p class="muted">iOS / 個人制作 / SwiftUI</p>
+                <p>
+                    撮影した写真やメモを地図上のピンと紐づけて管理できるフォトマップアプリ。
+                    「どこで・どんな思い出だったか」を地図と一緒に振り返ることができます。
+                    位置情報・写真・コメントを組み合わせ、「あとで見返しやすく、人にも共有しやすい」UIを意識して設計しました。
+                </p>
+                <div class="pill-row">
+                    <div class="pill">SwiftUI</div>
+                    <div class="pill">Map UI</div>
+                    <div class="pill">UXデザイン</div>
+                </div>
+            </a>
+
+            <!-- Project 4 -->
+            <div class="card">
+                <strong data-i18n="p4-title">「ひとりじゃない」メンタルサポートApp（企画）</strong>
+                <p class="muted" data-i18n="p4-meta">企画・UI案 / 個人</p>
+                <p data-i18n="p4-text">
+                    匿名で悩みを相談できるチャット型アプリの企画。
+                    安心して話せる設計やリマインド機能など、ユーザー視点で仕様を検討。
+                </p>
+                <div class="pill-row">
+                    <div class="pill" data-i18n="p4-tag1">企画力</div>
+                    <div class="pill" data-i18n="p4-tag2">ユーザー視点</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History -->
+    <section id="history">
+        <div class="section-title">
+            <span class="bar"></span>
+            <span data-i18n="history-title">学びと経験</span>
+        </div>
+        <div class="card">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <strong data-i18n="history-1-title">
+                        2024–2026 日本電子専門学校
+                    </strong><br>
+                    <span data-i18n="history-1-text">
+                        モバイルアプリケーション開発科にて、iOS / Android / Web / チーム開発を体系的に学習。
+                    </span>
+                </div>
+                <div class="timeline-item">
+                    <strong data-i18n="history-2-title">
+                        2024–現在 個人制作
+                    </strong><br>
+                    <span data-i18n="history-2-text">
+                        授業課題以外にもアプリやWebページを制作し、
+                        GitHubでコード管理・改善を継続。
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="section-title">
+            <span class="bar"></span>
+            <span data-i18n="contact-title">Contact</span>
+        </div>
+        <div class="contact">
+            <div>
+                <strong data-i18n="contact-message-title">採用ご担当者様へ</strong><br>
+                <span data-i18n="contact-message-body">
+                    こちらのメールアドレスまたはGitHub経由でご連絡いただければ幸いです。
+                </span>
+            </div>
+            <div>
+                <div>
+                    📧 Mail：
+                    <a href="mailto:qq1295490152@gmail.com">qq1295490152@gmail.com</a>
+                </div>
+                <div>
+                    💻 GitHub：
+                    <a href="https://github.com/VIoverlordIV" target="_blank">VIoverlordIV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
